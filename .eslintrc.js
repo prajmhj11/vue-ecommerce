@@ -1,4 +1,8 @@
 module.exports = {
+  globals: {
+    "$": true,
+    "juery": true
+  },
   root: true,
   env: {
     node: true
